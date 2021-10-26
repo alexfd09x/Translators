@@ -1,5 +1,5 @@
-import sys
-from leet1 import coder
+from coder import coder
+from appendix import leet,lang
 a = input()
-a = coder(a)
-print (a)
+a = coder(a,lang,leet)
+print(a)
